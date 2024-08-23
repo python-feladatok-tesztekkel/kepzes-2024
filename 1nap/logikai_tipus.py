@@ -1,0 +1,5 @@
+print(5 > 4)
+print(type(5 > 4))
+print(True > False)
+print(True*1)
+print(False*1)

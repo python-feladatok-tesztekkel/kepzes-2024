@@ -1,0 +1,6 @@
+print("Szia")
+print('Szia')
+print('Szia "Marslakó"')
+print("Szia 'Marslakó'")
+print("I'm \"Marslakó\"")
+print('I\'m "Marslakó"')

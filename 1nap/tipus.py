@@ -1,0 +1,10 @@
+print(type(10))
+print(type(float(10.5)))
+print(type("Szia"))
+print(type('c'))
+print(type([3, 2, 8, 9, 4]))
+print(type((3, 2, 8, 9, 4)))
+print(type(print(10)))
+print(type(type(10)))
+a = None
+print(type(a))
