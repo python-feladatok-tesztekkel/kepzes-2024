@@ -1,0 +1,10 @@
+while True:
+    bevitel=input("Kérek egy számot:")
+    if (bevitel.lower() == "stop"):
+        print("Sajnálom, hogy nem dolgozunk együtt!")
+        break
+    if (bevitel.isdecimal() or bevitel[0]=='-' and bevitel[1:].isdecimal):
+        print("A megadott érték egy szám")
+        break;
+    else:
+        print("Ez nem egy egész szám")
